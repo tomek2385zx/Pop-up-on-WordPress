@@ -1,0 +1,292 @@
+.loginBox {
+        font-family: Poppins;
+        position: fixed;
+        top: calc(115%/2);
+        left: calc(160%/2);
+        transform: translate(-50%, -50%);
+        width: 350px;
+        height: 370px;
+        background-color: rgb(0,0,0,0.5);
+        padding: 80px 40px;
+        z-index: 100;
+        border-style: solid;
+        border-color:white;
+        display: none;
+        border: none;
+
+    }
+
+    .loginBox h2 {
+      position: absolute;
+      top:2vh;
+        margin: 0;
+        padding: 10 0 20px;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .loginBox input {
+        width: 100%;
+        margin-bottom: 6px;
+        background-color:#f3f2f0;
+    }
+    .loginBox input[type="submit"]{
+      transition: all 0.3s;
+      box-shadow: 2px 5px 30px #888888;
+      color:black;
+    }
+    .loginBox input[type="text"],
+    .loginBox input[type="Email"],
+    .loginBox input[type="name"] {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: white !important;
+        font-size: 16px;
+        display: block;
+        padding: 0;
+
+    }
+
+    .loginBox form ::placeholder {
+        color: #D6D6D6 !important;
+    }
+
+
+    .loginBox > form > {
+        background-color: rgb(0, 0, 0, 0.5);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 60px 2px;
+        cursor: pointer;
+    }
+
+
+    .loginBox input[type="submit"]:hover {
+        background: orange;
+        color: black;
+        font-family: "Poppins";
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    .posts
+    {
+      font-family: Poppins;
+      position: fixed;
+      top: calc(100%/2);
+      left: calc(70%/2);
+      transform: translate(-50%, -50%);
+      width: 50%;
+      height: 80%;
+      background-color: rgb(0, 0, 0, 0.4);
+      padding: 80px 40px;
+      overflow: auto;
+    }
+    .posts ul
+    {
+      list-style-type: none !important;
+    }
+
+    .Produktyy{
+      position:fixed;
+      top:5vh;
+      left:10vh;
+      width: 80vh;
+      height: 650px;
+      background-color:white;
+      overflow-x: auto;
+      z-index: 1 !important;
+      font-family: Poppins !important;
+      border-style:solid;
+      border-color:#A6A6A6;
+      overflow-x: hidden !important;
+      display: none;
+      border: none;
+
+;
+
+    }
+
+
+    .Produktyy h1{
+    text-align: center;
+    border-width: thin;
+    border-color: #A6A6A6;
+    color:#A6A6A6;
+    background-color;
+    border-style: solid;
+
+    }
+
+    .Produktyy h5 {
+    text-align: center;
+    color:#A6A6A6 !important;
+
+    }
+
+
+
+    .Produktyy p{
+    margin:30px;
+    color:#A6A6A6;
+    text-align: center;
+    font-family: Poppins;
+  }
+    .Produktyy ul
+    {
+      list-style-type: none;
+    }
+    .Produktyy button{
+      background-color:#f3f2f0;
+      border-color:white;
+      transition: all 0.3s;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      margin-bottom: 10px;
+      color:black !important;
+      box-shadow: 5px 5px 30px #6f8e8a;
+    }
+    .Produktyy button:hover{
+      background-color: orange;
+      color:black !important;
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    .Produktyy h4{
+      font-size:2vh;
+      color:black;
+
+
+    }
+    .Produktyy img{
+      transition: all 0.3s;
+
+
+
+}
+
+    .popup {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transform: scale(0.6);
+
+
+}
+.rpodukty img{
+    position:fixed;
+    width: 10vh;
+    right:3vh;
+    bottom: 0;
+}
+.produkty{
+    width: 100vh;
+    height: 50vh;
+    top:10vh;
+    left:calc(40%/2);
+}
+@media screen and (max-width: 600px){
+    body{
+      overflow-x: hidden !important;
+    }
+  .loginBox {
+      width: 100%;
+      height: 40%;
+      top:87vh;
+      left:50%;
+      background-color:black;
+
+  }
+  .loginBox h2{
+    font-size:2vh;
+    top:5vh;
+    left:25%;
+
+  }
+  .loginBox ::placeholder{
+    font-size:10px !important;
+  }
+  .popup{
+    width: 30% !important;
+    z-index: 100;
+  }
+  .Produktyy {
+      width: 95%;
+      height: 70%;
+      top:1px;
+      left:0;
+}
+  .Produktyy h1{
+    font-size:4vh;
+  }
+}
+@media screen and (min-width: 600px){
+    .loginBox{
+      width: 100%;
+      height: 40%;
+      top:82vh;
+      left:50%;
+      background-color:black;
+    }
+    .loginBox h2{
+      font-size: 3vh;
+      top:5vh;
+      left:35%;
+    }
+    .Produktyy {
+        width: 100%;
+        height: 70%;
+        top:5.4vh;
+        left:0;
+        border-style: none;
+        border-color: none;
+  }
+}
+@media  screen and (max-width: 768px) {
+    .Produktyy{
+      border-style: none;
+      border-color:none;
+    }
+}
+
+
+@media  screen and (min-width: 992px) {
+      .loginBox{
+        width: 35%;
+        height: 40%;
+        top:65vh;
+        left:80%;
+        background-color: rgb(0,0,0,0.5);
+
+      }
+      .loginBox h2{
+        font-size: 3vh;
+        top:2vh;
+        left:20%;
+      }
+      .Produktyy{
+        width: 60%;
+        height: 70%;
+        border-style:solid;
+        border-color:black;
+      }
+      .popup{
+        width: 10% !important;
+        z-index: 100;
+      }
